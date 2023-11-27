@@ -1,0 +1,670 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family : sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+header{
+    background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url(../images/background.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+header section.wrapper {
+
+}
+header section.wrapper div.head{
+    display: flex;
+    justify-content:space-evenly;
+    gap: 550px;
+    width: 100%;
+    display: inline-flex;
+}
+header section.wrapper div.head nav.left{
+    padding: 30px 20px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+header section.wrapper div.head nav.left img{
+    width: 150px;
+}
+header section.wrapper div.head nav.right{
+    display: flex;
+    padding: 30px 20px;
+    justify-content: space-around;
+
+}
+header section.wrapper div.head nav.right div.dropdown{
+    margin-left: 30px;
+    align-items: baseline;
+}
+header section.wrapper div.head nav.right div.dropdown svg{
+    margin-right: 4px;
+}
+header section.wrapper div.head nav.right div.dropdown button{
+    border: 2px solid white;
+   color: white;
+}
+header section.wrapper div.head nav.right div.sign{
+    margin-left: 20px;
+}
+header section.wrapper nav.right div.sign button{
+    
+}
+header div.con{
+    color: white;
+    text-align: center;
+    position: absolute;
+    top:60%;
+    left: 47%;
+    transform: translate(-50%,-50%);
+    width: 75%;
+}
+header div.con h1{
+    font-weight: 900;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+header div.con h2{
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+header div.con h3{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+header div.con h3{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+
+
+header div.con form.email-signup{
+    text-align:baseline;    
+}
+header div.con form.email-signup input{
+    width: 435px;
+    height: 62px;
+    background: rgba(0,0,0,.3);
+    padding: 25px 10px;
+    border: 1px solid white;
+}
+header div.con form.email-signup button{
+    height: 54px;
+    font-weight: 600;
+    margin-left: 5px;
+}
+hr{
+    color: gray;
+    height: 10px;
+    background-color: gray;
+}
+#sec{
+    background: black;
+}
+#sec div.con{
+    position: relative;
+    
+    display: flex ;
+    justify-content:first baseline;
+    padding: 110px 110px;
+}
+/* what to write - image to be uppper side vv 
+#sec div.con div.imag div.default-ltr-cache-m5f3qu e15c37ii14{
+    
+    z-index: 3;
+    
+}*/
+
+#sec div.con div.tx{
+    color: white;
+    margin: auto auto;
+    margin-left: 150px;
+    width: 50%;
+    
+}
+#sec div.con div.tx h1{
+    font-weight: 900;
+    margin-bottom: 20px;
+    font-size: 3rem;
+}
+#sec div.con div.tx h2{
+    font-weight: 400;
+    font-size: 30px;
+}
+#sec div.con div.imag{
+    width: 50%;
+    margin-right: 150px;
+}
+#sec div.con div.imag img{
+    width: 100%;
+}
+#third{
+    background: black;
+}
+#third div.con{
+    display: flex ;
+    justify-content:first baseline;
+    padding: 110px 110px;
+}
+#third div.con div.tx{
+    color: white;
+    margin: auto auto;
+    margin-right: 150px;
+    width: 50%;
+    
+}
+#third div.con div.tx h1{
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#third div.con div.tx h2{
+    font-weight: 400;
+    font-size: 30px;
+}
+#third div.con div.imag{
+    width: 50%;
+    margin-left: 150px;
+}
+#third div.con div.imag img{
+    width: 100%;
+}
+#four{
+    background: black;
+}
+#four div.con{
+    display: flex ;
+    justify-content:first baseline;
+    padding: 110px 110px;
+}
+#four div.con div.tx{
+    color: white;
+    margin: auto auto;
+    margin-left: 150px;
+    width: 50%;
+    
+}
+#four div.con div.tx h1{
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#four div.con div.tx h2{
+    font-weight: 400;
+    font-size: 30px;
+}
+#four div.con div.imag{
+    width: 50%;
+    margin-right: 150px;
+}
+#four div.con div.imag img{
+    width: 100%;
+}
+#five{
+    background: black;
+}
+#five div.con{
+    display: flex ;
+    justify-content:first baseline;
+    padding: 110px 110px;
+}
+#five div.con div.tx{
+    color: white;
+    margin: auto auto;
+    margin-right: 150px;
+    width: 50%;
+    
+}
+#five div.con div.tx h1{
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#five div.con div.tx h2{
+    font-weight: 400;
+    font-size: 30px;
+}
+#five div.con div.imag{
+    width: 50%;
+    margin-left: 150px;
+}
+#five div.con div.imag img{
+    width: 100%;
+}
+div.hor{
+    height: 5px;
+    background-color: gray;
+}
+#six{
+
+}
+#six div.con{
+    display: flex;
+    flex-direction: column;
+}
+#six div.con h1{
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+#six div.con div.des{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#six div.con div.des button{
+    background-color: rgba(15,15,15,.7);
+    margin-bottom: 10px;
+    text-align: left;
+    padding: 10px 10px;
+    font-size: 30px;
+    color: white;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+#six div.con div.des button i{
+    
+}
+#six div.con div.des div.collapse{
+    background-color: gray;
+    margin-bottom: 10px;
+    width: 80%;
+    font-size: 20px;
+    overflow: hidden;
+}
+#six div.con div.des button:hover{
+    background-color: gray;
+}
+#six div.con h5{
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+#six div.con form.email-signup{
+    text-align:center;
+        
+}
+#six div.con form.email-signup input{
+    width: 435px;
+    height: 62px;
+    background: rgba(0,0,0,.3);
+    padding: 25px 10px;
+    border: 1px solid white;
+}
+#six div.con form.email-signup button{
+    height: 54px;
+    font-weight: 600;
+    margin-left: 5px;
+}
+footer{
+
+}
+footer section.wrapper{
+    width: 80%;
+}
+footer div.con{
+    display: flex;
+    flex-direction: column;
+    margin-left: 115px;
+}
+footer div.con p{
+    color: white;
+}
+footer div.con div.lis{
+    
+}
+footer div.con div.lis ul.con{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+footer div.con div.lis ul.con li{
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+footer div.con div.lis ul.con li a{
+    color: aliceblue;
+}
+footer div.con div.dropdown{
+
+}
+footer div.con div.dropdown button{
+    color: aliceblue;
+    border: 1px solid white;
+    margin-bottom: 20px;
+
+}
+
+@media only screen and (max-width:600px){
+    header{
+        background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url(../images/background.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 70vh;
+        position: relative;
+    }
+    header section.wrapper {
+    
+    }
+    header section.wrapper div.head{
+        display: flex;
+        justify-content:space-evenly;
+        gap: 100px;
+        width: 100%;
+        display: inline-flex;
+    }
+    header section.wrapper div.head nav.left{
+        padding: 15px 10px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    header section.wrapper div.head nav.left img{
+        width: 75px;
+    }
+    header section.wrapper div.head nav.right{
+        display: flex;
+        padding: 15px 10px;
+        justify-content: space-around;
+    
+    }
+    header section.wrapper div.head nav.right div.dropdown{
+        margin-left: 15px;
+        align-items: baseline;
+    }
+    header section.wrapper div.head nav.right div.dropdown svg{
+        margin-right: 2px;
+    }
+    header section.wrapper div.head nav.right div.dropdown button{
+        border: 1px solid white;
+       color: white;
+    }
+    header section.wrapper div.head nav.right div.sign{
+        margin-left: 10px;
+    }
+    header section.wrapper nav.right div.sign button{
+        
+    }
+    header div.con{
+        color: white;
+        text-align: center;
+        position: absolute;
+        top:50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 100%;
+    }
+    header div.con h1{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    header div.con h2{
+        font-size: 17px;
+        font-weight: 400;
+        margin-bottom: 10px;
+    }
+    header div.con h3{
+        font-size: 17px;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+    header div.con form.email-signup{
+        text-align:baseline;    
+    }
+    header div.con form.email-signup input{
+        width: 150px;
+        height: 31px;
+        background: rgba(0,0,0,.3);
+        padding: 25px 10px;
+        border: 1px solid white;
+    }
+    header div.con form.email-signup button{
+        height: 50px;
+        font-weight: 600;
+        margin-left: 2px;
+    }
+    hr{
+        color: gray;
+        height: 5px;
+        background-color: gray;
+    }
+    #sec{
+        background: black;
+    }
+    #sec div.con{
+        display: flex ;
+        justify-content:first baseline;
+        padding: 55px 55px;
+    }
+    #sec div.con div.tx{
+        color: white;
+        margin: auto auto;
+        margin-left: 70px;
+        width: 50%;
+        
+    }
+    #sec div.con div.tx h1{
+        font-weight: 600;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    #sec div.con div.tx h2{
+        font-weight: 400;
+        font-size: 10px;
+    }
+    #sec div.con div.imag{
+        width: 50%;
+        margin-right: 75px;
+    }
+    #sec div.con div.imag img{
+        width: 100%;
+    }
+    #third{
+        background: black;
+    }
+    #third div.con{
+        display: flex ;
+        justify-content:first baseline;
+        padding: 55px 55px;
+    }
+    #third div.con div.tx{
+        color: white;
+        margin: auto auto;
+        margin-right: 70px;
+        width: 50%;
+        
+    }
+    #third div.con div.tx h1{
+        font-weight: 600;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+    #third div.con div.tx h2{
+        font-weight: 400;
+        font-size: 10px;
+    }
+    #third div.con div.imag{
+        width: 50%;
+        margin-left: 75px;
+    }
+    #third div.con div.imag img{
+        width: 100%;
+    }
+    #four{
+        background: black;
+    }
+    #four div.con{
+        display: flex ;
+        justify-content:first baseline;
+        padding: 55px 55px;
+    }
+    #four div.con div.tx{
+        color: white;
+        margin: auto auto;
+        margin-left: 75px;
+        width: 50%;
+        
+    }
+    #four div.con div.tx h1{
+        font-weight: 600;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+    #four div.con div.tx h2{
+        font-weight: 400;
+        font-size: 10px;
+    }
+    #four div.con div.imag{
+        width: 50%;
+        margin-right: 75px;
+    }
+    #four div.con div.imag img{
+        width: 100%;
+    }
+    #five{
+        background: black;
+    }
+    #five div.con{
+        display: flex ;
+        justify-content:first baseline;
+        padding: 55px 55px;
+    }
+    #five div.con div.tx{
+        color: white;
+        margin: auto auto;
+        margin-right: 75px;
+        width: 50%;
+        
+    }
+    #five div.con div.tx h1{
+        font-weight: 600;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+    #five div.con div.tx h2{
+        font-weight: 400;
+        font-size: 10px;
+    }
+    #five div.con div.imag{
+        width: 50%;
+        margin-left: 75px;
+    }
+    #five div.con div.imag img{
+        width: 100%;
+    }
+    div.hor{
+        height: 2px;
+        background-color: gray;
+    }
+    #six{
+
+    }
+    #six div.con{
+        display: flex;
+        flex-direction: column;
+    }
+    #six div.con h1{
+        color: white;
+        text-align: center;
+        margin-bottom: 15px;
+        font-weight: 700;
+    }
+    #six div.con div.des{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #six div.con div.des button{
+        background-color: rgba(15,15,15,.7);
+        margin-bottom: 5px;
+        text-align: left;
+        padding: 5px 5px;
+        font-size: 15px;
+        color: white;
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+    }
+    #six div.con div.des button i{
+        
+    }
+    #six div.con div.des div.collapse{
+        background-color: gray;
+        margin-bottom: 5px;
+        width: 80%;
+        font-size: 10px;
+        overflow: hidden;
+    }
+    #six div.con div.des button:hover{
+        background-color: gray;
+    }
+    #six div.con h5{
+        color: white;
+        text-align: center;
+        margin-top: 20px;
+        font-weight: 400;
+        margin-bottom: 10px;
+    }
+    #six div.con form.email-signup{
+        text-align:center;
+            
+    }
+    #six div.con form.email-signup input{
+        width: 150px;
+        height: 31px;
+        background: rgba(0,0,0,.3);
+        padding: 25px 10px;
+        border: 1px solid white;
+    }
+    #six div.con form.email-signup button{
+        height: 50px;
+        font-weight: 600;
+        margin-left: 5px;
+    }
+    footer div.con{
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    footer div.con p{
+        color: white;
+    }
+    footer div.con div.lis{
+        
+    }
+    footer div.con div.lis ul.con{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    
+    }
+    footer div.con div.lis ul.con li{
+        margin-bottom: 5px;
+        margin-left: 5px;
+    }
+    footer div.con div.lis ul.con li a{
+        color: aliceblue;
+    }
+    footer div.con div.dropdown{
+    
+    }
+    footer div.con div.dropdown button{
+        color: aliceblue;
+        border: 1px solid white;
+        margin-bottom: 10px;
+    
+    }
+
+}
