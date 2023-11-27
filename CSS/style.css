@@ -121,6 +121,26 @@ hr{
     justify-content:first baseline;
     padding: 110px 110px;
 }
+
+.imag
+{
+    position: relative;
+}
+#tv2
+{
+    width: 104%;
+    position: absolute;
+    margin-top: -15px;
+   
+}
+/* #tvPlay2
+{
+    position: absolute;
+
+    margin-top:10px;
+    padding-top:10px;
+} */
+
 /* what to write - image to be uppper side vv 
 #sec div.con div.imag div.default-ltr-cache-m5f3qu e15c37ii14{
     
