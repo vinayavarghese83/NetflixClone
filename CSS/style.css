@@ -10,6 +10,7 @@ a{
 ul,ol{
     list-style: none;
 }
+
 header{
     background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url(../images/background.jpg);
     background-size: cover;
@@ -17,9 +18,10 @@ header{
     height: 100vh;
     position: relative;
 }
+/* 
 header section.wrapper {
 
-}
+} */
 header section.wrapper div.head{
     display: flex;
     justify-content:space-evenly;
@@ -39,11 +41,15 @@ header section.wrapper div.head nav.right{
     display: flex;
     padding: 30px 20px;
     justify-content: space-around;
+    color: white;
+    gap:10px;
+    
 
 }
 header section.wrapper div.head nav.right div.dropdown{
     margin-left: 30px;
     align-items: baseline;
+    border: 0.25px solid grey;
 }
 header section.wrapper div.head nav.right div.dropdown svg{
     margin-right: 4px;
@@ -128,18 +134,18 @@ hr{
 }
 #tv2
 {
-    width: 99%;
+    width: 90%;
     position: absolute;
     margin-top: -15px;
    
 }
-/* #tvPlay2
-{
-    position: absolute;
-
-    margin-top:10px;
-    padding-top:10px;
-} */
+ #tvPlay2
+{    
+    width: 432px;
+} 
+#tvPlay2 video{
+    max-width: 100%;
+}
 
 /* what to write - image to be uppper side vv 
 #sec div.con div.imag div.default-ltr-cache-m5f3qu e15c37ii14{
@@ -398,7 +404,7 @@ footer div.con div.dropdown button{
     header section.wrapper div.head nav.right{
         display: flex;
         padding: 15px 10px;
-        justify-content: space-around;
+        justify-content: space-between;
     
     }
     header section.wrapper div.head nav.right div.dropdown{

@@ -12,6 +12,7 @@
     <title>Netflix India – Watch TV Shows Online, Watch Movies Online</title>
 </head>
 <body>
+    <div class="container-fluid" >
     <header>
         <section class="wrapper">
             <div class="head">
@@ -19,7 +20,7 @@
                     <img src="./images/logo.png" alt="">
                 </nav>
                 <nav class="right">
-                    <div class="dropdown">
+                    <section class="dropdown">
                         <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"><i class="bi bi-globe"></i>
                         English
                         </button>
@@ -27,13 +28,13 @@
                                 <li><a class="dropdown-item" href="">English</a></li>
                                 <li><a class="dropdown-item" href="">Hindi</a></li>
                             </ul>
-                    </div>
-                    <div class="sign">
+                    </section>
+                    <section class="sign">
                         <button type="button" class="btn btn-danger">Sign In</button>
-                    </div>
+                    </section>
                 </nav>
             </div>
-        <div class="con">
+            <div class="con">
             <h1>Unlimited Movies ,TV Shows and more</h1>
             <h3>Watch anywhere. Cancel anytime.</h3>
             <h4>Ready to watch? Enter your email to create or restart your membership.</h4>
@@ -41,22 +42,24 @@
                 <input type="email" placeholder="Email address" required>
                 <button type="button" class="btn btn-danger">Get Started ></button>
             </form>
-        </div>
+            </div>
         </section>
     </header>
     <div class="hor">
     </div>
     <div id="sec">
-        <div class="con d-flex flex-column align-items-center">
+        <div class="con d-flex align-items-center">
             <div class="tx" >
-                <h1>Enjoy on your TV</h1>
-                <h2>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</h2>
+                <h2>Enjoy on your TV</h2>
+                <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
             </div>
             <div class="imag">
                 
                 <img ID="tv2" alt="" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" 
                 data-uia="nmhp-card-animation-asset-image" class="default-ltr-cache-1d3w5wq">
-                <div id="tvPlay2" data-uia="nmhp-card-animation-asset-motion position-absolute margin-top-center" class="default-ltr-cache-m5f3qu e15c37ii14" >
+
+              
+                <div id="tvPlay2" data-uia="nmhp-card-animation-asset-motion " class="default-ltr-cache-m5f3qu e15c37ii14" >
                     <video data-uia="nmhp-card-animation-asset-video" autoplay="" playsinline="" muted="" loop="">
                         <source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v" type="video/mp4">
                     </video>
@@ -64,7 +67,18 @@
                     <div class="default-ltr-cache-0"></div>
                     <div data-uia="nmhp-card-animation-asset-custom" aria-hidden="true" class="default-ltr-cache-0 e15c37ii13">
                     </div>
-                    </div>
+                    </div> 
+
+
+                      <!-- <div data-uia="nmhp-card-animation-asset-motion" class="default-ltr-cache-m5f3qu e15c37ii14">
+
+                    <video data-uia="nmhp-card-animation-asset-video" autoplay="" playsinline="" muted="" loop="">
+                    
+                    <source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v" type="video/mp4"></video>
+                    <div class="default-ltr-cache-0"></div><div data-uia="nmhp-card-animation-asset-custom" aria-hidden="true" class="default-ltr-cache-0 e15c37ii13">
+                    
+                    </div> -->
+
                 <!-- <img src="./images/feature-1.png" alt=""> -->
                  </div>
         </div>
@@ -188,5 +202,6 @@
                 </div>
             </section>
         </footer>
+    </div>
 </body>
 </html>
