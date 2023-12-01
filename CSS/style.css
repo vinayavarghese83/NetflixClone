@@ -410,7 +410,7 @@ div.hor{
     padding: 1px 1px;
     border: 1px solid white;
     border-radius: 3px;
-    margin-left: 20px;
+    margin-left: -219px;
 
 }
 #six div.con form.email-signup button{
@@ -419,6 +419,7 @@ div.hor{
     font-weight: 600;
     margin-left: 5px;
 }
+
 /* .btn-primary-outline
 {
     height: 10px !important;
@@ -754,6 +755,8 @@ footer div.con div.dropdown button{
         font-weight: 600;
         margin-left: 5px;
     }
+
+    -219px
     footer div.con{
         display: flex;
         flex-direction: column;
